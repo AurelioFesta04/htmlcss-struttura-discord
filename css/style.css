@@ -1,0 +1,214 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: lightpink;
+    max-width: 100%;
+    height: 75px;
+    padding-top: 20px;
+}
+
+.container1 {
+    display: flex;
+    width: 60%;
+    height: 50px;
+    background-color: lawngreen;
+    margin: 0 auto;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.logo {
+    margin-left: 8px;
+    width: 25%;
+    justify-content: start;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* debug */
+    border-left: 4px dashed black;
+    border-right: 4px dashed black;
+    /* /debug */
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    width: 25%;
+    margin-right: 8px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+}
+
+.scritte1 {
+    margin-top: 50px;
+    width: 48%;
+    height: 400px;
+    background-color: pink;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.block1 {
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+.container3 {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 60%;
+    height: 430px;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.scritte2 {
+    border-right: 4px dashed black;
+    width: 60%;
+    background-color: skyblue;
+}
+
+.scritte2-1 {
+    width: 40%;
+    background-color: pink;
+}
+
+
+.block2 {
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.container4 {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 60%;
+    height: 430px;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.scritte3 {
+    border-right: 4px dashed black;
+    width: 40%;
+    background-color: pink;
+}
+
+.scritte3-1 {
+    width: 60%;
+    background-color: skyblue;
+}
+
+.container5 {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: lightpink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.scritte4 {
+    background-color: green;
+    margin: auto;
+    width: 60%;
+    height: 800px;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.container6 {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    width: 100%;
+    height: 500px;
+}
+
+.scritte5 {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    height: 460px;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.scritte5-1 {
+    height: 100%;
+    width: 30%;
+    background-color: red;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.scritte5-2 {
+    height: 100%;
+    width: 17%;
+    background-color: yellowgreen;
+    /* debug */
+    border: 2px dashed white;
+    /* /debug */
+}
+
+.container7 {
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    border-top: 2px solid white;
+    height: 100px;
+}
+
+.footer {
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    height: 65%;
+    width: 60%;
+    background-color: bisque;
+    justify-content: space-between;
+}
+
+.button {
+    align-self: center;
+    background-color: grey;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
+
+.button2 {
+    align-self: center;
+    background-color: grey;
+    /* debug */
+    border: 2px dashed black;
+    /* /debug */
+}
